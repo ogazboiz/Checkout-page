@@ -3,9 +3,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+
     <title>checkout page</title>
   </head>
-  <body>
-    <section></section>
+  <body class="container-class" style="background: blue">
+    <section>
+      <div class="credit-content" style="background-color: aqua">
+        <!-- Content here -->
+        <div class="">
+          <div class="row">
+            <div class="col-lg-8">
+              <form action="">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <small id="emailHelp" class="form-text text-muted"
+                    >We'll never share your email with anyone else.</small
+                  >
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Expiry Date</label>
+                    <input
+                      type="datetime"
+                      class="form-control"
+                      id="inputEmail4"
+                      placeholder="mm / yy"
+                    />
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">CVV</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="inputPassword4"
+                      placeholder="XXX"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-4">
+              <div class="side-image">
+                <h3>Subscribe and start saving your money</h3>
+              </div>
+              <div class="side-content">
+                <ul>
+                  <li>all features in basic included</li>
+                  <li>easy and flexible business with invoice management</li>
+                  <li>Full time payment</li>
+                  <li>20Tb cloud storage</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
