@@ -11,13 +11,14 @@
 
     <title>checkout page</title>
   </head>
-  <body class="container-class" style="background: blue">
+  <body class="container-class" style="background: lightgray">
     <section>
-      <div class="credit-content" style="background-color: aqua">
+      <div class="credit-content" style="background-color: #fff">
         <!-- Content here -->
         <div class="">
           <div class="row">
             <div class="col-lg-8">
+              <h3>payment details</h3>
               <form action="">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
@@ -37,7 +38,7 @@
                     type="number"
                     class="form-control"
                     id="exampleInputPassword1"
-                    placeholder="XXXX XXXX XXXX XXXX"
+                    placeholder="XXXX  XXXX  XXXX  XXXX"
                   />
                 </div>
                 <div class="form-row">
@@ -73,38 +74,58 @@
                 <ul class="list-group">
                   <li
                     class="list-group-item d-flex justify-content-between align-items-center"
-                    style="border: none"
+                    style="border: none; padding: 12px 0"
                   >
-                    Cras justo odio
-                    <span class="">14</span>
+                    Subtotal
+                    <span class="">$94</span>
                   </li>
                   <li
                     class="list-group-item d-flex justify-content-between align-items-center"
-                    style="border: none"
+                    style="border: none; padding: 12px 0"
                   >
-                    Dapibus ac facilisis in
-                    <span class="">2</span>
+                    Platform fee
+                    <span class="">$6</span>
                   </li>
+
                   <li
                     class="list-group-item d-flex justify-content-between align-items-center"
+                    style="
+                      border: 1px solid rgba(0, 0, 0, 0.125);
+                      padding: 12px 0;
+                    "
                   >
-                    Morbi leo risus
-                    <span class="">1</span>
+                    Total Amount
+                    <span class="">$100</span>
                   </li>
                 </ul>
+                <input class="button" type="button" value="Make payment" />
               </form>
             </div>
             <div class="col-lg-4">
               <div class="side-image">
                 <h3>Subscribe and start saving your money</h3>
               </div>
-              <div class="side-content">
+              <div class="side-content x">
+                <div class="site-icon">
+                  <img
+                    src="/image/checkout.jpg"
+                    width="30%"
+                    height="80%"
+                    alt=""
+                    srcset=""
+                  />
+                  <div>
+                    <p>Professional Plan</p>
+                    <p><strong>$96 / month</strong></p>
+                  </div>
+                </div>
                 <ul>
                   <li>all features in basic included</li>
                   <li>easy and flexible business with invoice management</li>
                   <li>Full time payment</li>
                   <li>20Tb cloud storage</li>
                 </ul>
+                <h4>Modify plan</h4>
               </div>
             </div>
           </div>
