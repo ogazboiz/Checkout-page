@@ -33,12 +33,22 @@ li {
   text-align: center;
   display: table;
 }
+.side-image img {
+  width: 7%;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
 .side-image h3 {
-  margin: 0;
+  margin: auto;
   padding: 0;
+  padding-bottom: 3rem;
   vertical-align: middle;
-  display: table-cell;
+  display: flex;
+  font-size: 22px;
   color: #fff;
+  align-content: center;
+  text-align: center;
+  width: 80%;
 }
 .side-content {
   background: darkgray;
@@ -50,6 +60,10 @@ li {
 }
 .side-content ul li {
   padding-bottom: 1rem;
+}
+
+image {
+  width: 100%;
 }
 .button {
   padding: 1% 30%;
