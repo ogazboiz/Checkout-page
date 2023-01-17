@@ -68,14 +68,14 @@ image {
   width: 100%;
 }
 .button {
-  padding: 1% 30%;
+  padding: 12px 40%;
   background-color: blue;
   color: #fff;
   /* text-align: center; */
   display: flex;
   border-radius: 10px;
   border: none;
-  margin: 1rem auto;
+  /* margin: 1rem auto; */
 }
 /* button {
   padding: 1% 30%;
