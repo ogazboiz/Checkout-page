@@ -61,7 +61,9 @@ li {
 .side-content ul li {
   padding-bottom: 1rem;
 }
-
+.side-content h5 {
+  padding-bottom: 0;
+}
 image {
   width: 100%;
 }
@@ -118,6 +120,44 @@ image {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-h4 {
+h5 {
   padding-left: 25px;
+}
+.lines {
+  /* Increase this as per requirement */
+  /* padding-bottom: 15px; */
+  /* border-bottom-style: solid; */
+  /* border-bottom-width: 3.1px; */
+  background-color: blue;
+  color: blue;
+  width: 111px;
+  margin-top: 6px;
+  margin-left: 25px;
+  padding-bottom: o;
+  margin-bottom: 20px;
+}
+
+.total-group {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.total-group li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+}
+.features {
+  padding-top: 90px;
+  list-style: none;
+}
+.features li::before {
+  color: blue;
+  content: "\2022";
+  font-weight: bolder;
+  font-size: larger;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
